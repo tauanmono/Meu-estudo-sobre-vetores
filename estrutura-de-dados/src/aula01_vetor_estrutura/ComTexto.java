@@ -25,7 +25,7 @@ public class ComTexto {
         boolean encontrou = false;
         for (int i = 0; i < estados.length; i++) {
             String elemento = estados[i];
-            if(elemento.equals(siglaBusca)){
+            if(elemento.equalsIgnoreCase(siglaBusca)){
                 encontrou =true;
                 break;
             }
